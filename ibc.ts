@@ -1,3 +1,5 @@
+// https://github.com/Yummy-Capital/y-whois-escrow-address-generator
+
 export default {
   cro1a53udazy8ayufvy0s434pfwjcedzqv34wh2uhl: 'IBC Escrow',
   cro1kq2rzz6fq2q7fsu75a9g7cpzjeanmk68s7dx89: 'IBC Escrow',
