@@ -1,17 +1,6 @@
-import { Whois } from '../interfaces'
+import { Whois } from '../../../interfaces'
 
-export const common: Record<string, Whois> = {
-  // bittrex
-  // =>
-
-  cro1uzfhnx77ya9ectald0c3rygy3yuda7zvjem5ex: {
-    label: 'Bittrex.com',
-    link: 'https://bittrex.com',
-  },
-
-  // crypto.com
-  // =>
-
+export default <Record<string, Whois>>{
   // genesis whale
   cro1tht4ymvyga25prfzexahldp0ec6qtu4jhmpg5v: {
     label: 'Crypto.com',
@@ -39,17 +28,9 @@ export const common: Record<string, Whois> = {
     link: 'https://crypto.com',
   },
 
-  // is used to top up nft accounts
+  // used to fund nft accounts
   cro137pc5lte8nadup8su40zte2mt2vw8lxfcmlnxq: {
     label: 'Crypto.com',
     link: 'https://crypto.com',
-  },
-
-  // okx.com
-  // =>
-
-  cro1ukvuw3qzjtt8wg5hsze4f2c3c8xqvtwgcnxah2: {
-    label: 'OKX.com',
-    link: 'https://okx.com',
   },
 }

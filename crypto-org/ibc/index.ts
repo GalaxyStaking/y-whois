@@ -1,7 +1,7 @@
 // https://github.com/Yummy-Capital/y-whois-escrow-address-generator
-import { Whois } from '../interfaces'
+import { Whois } from '../../interfaces'
 
-export const ibc: Record<string, Whois> = {
+export default <Record<string, Whois>>{
   cro1a53udazy8ayufvy0s434pfwjcedzqv34wh2uhl: {
     label: 'IBC Escrow',
   },

@@ -1,6 +1,6 @@
-import { Whois } from '../interfaces'
+import { Whois } from '../../interfaces'
 
-export const moduleAccounts: Record<string, Whois> = {
+export default <Record<string, Whois>>{
   cro1fl48vsnmsdzcv85q5d2q4z5ajdha8yu3dqpk9x: {
     label: 'Bonded Tokens Pool',
   },

@@ -1,7 +1,9 @@
-import { common } from './common'
-import { moduleAccounts } from './module.accounts'
+import ibc from './ibc'
+import moduleAccounts from './module.accounts'
+import others from './others'
 
-export const cronos = {
-  ...common,
+export default {
+  ...ibc,
   ...moduleAccounts,
+  ...others,
 }
