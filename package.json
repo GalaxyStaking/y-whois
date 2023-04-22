@@ -1,8 +1,8 @@
 {
   "name": "y-whois",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Whois Resources Managed By Yummy Capital",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
