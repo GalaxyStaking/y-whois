@@ -16,5 +16,5 @@ export default <WhoisRecords>{
   cro1lemc6jwfny6ryjaf37w62a6xdpttrr0t0var3n: {
     label: 'GalaxyStaking - Uranus Restake',
     link: 'https://galaxystaking.space',
-  }
+  },
 }
