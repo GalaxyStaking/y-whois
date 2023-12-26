@@ -1,6 +1,6 @@
 {
   "name": "y-whois",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "Whois Resources Managed By Yummy Capital",
   "main": "src/index.ts",
   "scripts": {
