@@ -1,7 +1,7 @@
-import { cronos } from './cronos'
-import { cryptoorg } from './crypto.org'
+import { cronosEvm } from './cronos-evm'
+import { cronosPos } from './cronos-pos'
 
 export const whois = {
-  ...cronos,
-  ...cryptoorg,
+  ...cronosEvm,
+  ...cronosPos,
 }
