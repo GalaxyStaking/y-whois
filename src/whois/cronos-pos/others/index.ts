@@ -1,4 +1,5 @@
 import bittrex from './bittrex.com'
+import burn from './burn'
 import crosnest from './cros-nest.com'
 import cryptocom from './crypto.com'
 import cryptoorg from './crypto.org'
@@ -9,6 +10,7 @@ import veno from './veno.finance'
 
 export default {
   ...bittrex,
+  ...burn,
   ...crosnest,
   ...cryptocom,
   ...cryptoorg,
